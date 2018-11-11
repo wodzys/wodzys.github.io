@@ -1,3 +1,0 @@
-# Doino
-# Doino
-# Doino
