@@ -6,14 +6,14 @@
 title: 还没想好
 subtitle: 活着
 description: 
-keywords:
+keywords: “认知 教程”
 author: Dino
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.link00.cn
+url: http://bai.link00.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
