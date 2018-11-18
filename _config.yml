@@ -5,8 +5,8 @@
 # Site
 title: 还没想好
 subtitle: 活着
-description: 
-keywords: “认知 教程”
+description: 空白
+keywords: 认知 学习 记录
 author: Dino
 language:
 timezone:
@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://bai.link00.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title
 permalink_defaults:
 
 # Directory

@@ -1,8 +1,12 @@
 ---
 title: google 搜索语法
+date: 2018-11-18
+categories:
+- Google
+- 技巧
 ---
 
-原文连接[玄魂工作室](https://www.cnblogs.com/xuanhun/p/3910134.html)
+原文连接 [玄魂工作室](https://www.cnblogs.com/xuanhun/p/3910134.html)
 
 <!-- more -->
 
