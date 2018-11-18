@@ -329,7 +329,7 @@ related_posts:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a>
 
 # Post edit
@@ -821,7 +821,7 @@ pace_theme: pace-theme-minimal
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
