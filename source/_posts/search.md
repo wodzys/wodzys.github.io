@@ -1,9 +1,11 @@
 ---
-title: google 搜索语法
-date: 2018-11-18
+title: 提高效率善用搜索引擎--百度
+date: 2018-11-29
+update: 2018-11-20
 categories:
-- Google
-- 技巧
+- 教程
+tags:
+- 百度
 ---
 
 原文连接 [玄魂工作室](https://www.cnblogs.com/xuanhun/p/3910134.html)
