@@ -1,5 +1,6 @@
 ---
 title: 蓝牙耳机连接电脑教程
+date: 2018-01-15
 categories:
 - 教程
 tags:
