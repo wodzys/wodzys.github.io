@@ -1,5 +1,6 @@
 language: node_js
-node_js: 12.x
+node_js:
+  - 12.14
 # node_js: stable
 
 branches:
@@ -13,22 +14,31 @@ cache:
 
 #Hexo 源码所在分支
 #git push 配置blog所在分支
+
+before_install:
+  - npm install -g hexo-cli
+
 install:
-  - npm install hexo-cli -g
-  # - npm install
+  # - npm install hexo-cli -g
+  - npm install
 
 
 script:
+  - echo 正在清空缓存静态文件...
+  - hexo clean
+  - echo 正在生成静态文件...
   - hexo generate
 
 #由 travis-ci 自动提交hexo生成的publish里边的blog内容
 
 after_script:
+  - echo 开始部署...
   - cd ./public
   - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${EMAIL}"
-  - git add .
+  - git add ./
   - git commit -m "[AUTO]Deploy at `date +"%Y-%m-%d %H:%M"`"
   - git push --force "https://${GH_TOKEN}@${GH_REF}" master:master
+  - echo 部署完成!
 # E: Build LifeCycle
