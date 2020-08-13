@@ -14,7 +14,7 @@ cache:
 #git push 配置blog所在分支
 install:
   - npm install hexo-cli -g
-#  - npm install
+  - npm install
 
 
 script:
