@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 愚人在思考
+title: WODZYS
 subtitle: 活着
 description: 想得太多,做的太少
 keywords: 我是谁 我来自哪 我要去哪里
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blg.link00.cn
+url: https://wodzys.github.io/
 root: /
 permalink: :category/:title.html
 permalink_defaults:
