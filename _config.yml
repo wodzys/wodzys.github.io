@@ -28,6 +28,8 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - README.md
+  - QRbupt.html
+  - QRbupt_files/*
 # - CNAME
 
 # Writing
